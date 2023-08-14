@@ -1,0 +1,63 @@
+.arrivalContainer {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 5px;
+    margin-left: 5px;
+    height: 27vh; /* Adjust the height as needed */
+  }
+  
+  .arrivalBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid #ccc; */
+    padding: 15px;
+    width: 90%; /* Adjust the width as needed */
+  }
+  
+  .arrival-left-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .arrival-icon {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin-bottom: -10px; 
+    color: blueviolet;
+   
+   
+  }
+  .iconCart{
+    font-size: 18px;
+    background: blueviolet;
+    border-radius: 50%;
+    color: white;
+    width: 20px;
+    padding-left: 2px;
+    padding-top: 1px;
+    height: 20px;
+  }
+  
+  .arrival-right-content {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  
+  .arrival-right-content span {
+    margin: 0 5px;
+  }
+  
+  .arrivalText{
+    font-weight: 700;
+    font-size: 20px;
+    /* width: 30px; */
+    color: rgb(189, 89, 89);
+  }
+
+  .arrivalArrow{
+    background: #d4ceceb2;
+  }

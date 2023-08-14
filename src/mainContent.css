@@ -1,0 +1,156 @@
+.containerr {
+  display: flex;
+  padding: 10px;
+  margin-left: 5px;
+}
+
+.sidebar {
+  width: 15%;
+  border: 1px solid rgb(236, 233, 233);
+}
+
+.categories {
+  display: flex;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 18px;
+  padding: 12px;
+  
+  
+  
+  /* margin-left: 10px; */
+  margin-bottom: 10px;
+}
+.categories .categoriesMenu {
+  margin-right: 10px; /* Add some space between icon and text */
+}
+
+.category-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.category-item {
+  padding: 10px;
+  background-color: #fff;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  margin-left: 20px;
+}
+
+.box {
+  width: 75%;
+
+  /* border: 1px solid #ccc; */
+}
+
+.box-header {
+  display: flex;
+  background-color: lightgrey;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3.5px;
+  font-size: 18px;
+  width: 70rem;
+  margin-bottom: 10px;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 15px;
+  margin-left: 10px;
+  align-items: center;
+}
+
+.list-item {
+  padding: 10px;
+  display: flex; 
+  align-items: center;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+
+.arrowIcon{
+ text-decoration: none;
+}
+
+.icon {
+  margin-left: auto;
+  padding-right: 40px;
+  display: flex;
+  align-items: center; 
+  gap: 15px;
+}
+
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 10px;
+}
+
+.card {
+  display: flex;
+  flex: 1;
+  min-width: 0;
+  max-width: 70%;
+  height: 260px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: center;
+ background: #f0f0f0;
+}
+
+.card.small {
+  max-width: 24%;
+  background-color: #ffffff;
+}
+
+.watchImage{
+    height: 210px;
+    width: 210px;
+    max-width: 100%;
+    height: auto;
+}
+.imageText{
+    flex: 1;
+    padding-right: 20px;
+    margin-left: 40px;
+}
+
+.image{
+    flex: 1;
+}
+.bagImageText{
+ 
+}
+
+.bagImage{
+  height: 150px;
+padding-left: 50px;
+}
+.leatherBagText{
+  margin-left: 70px ;
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+
+h4{
+    color: rgb(180, 63, 63);
+}
+
+h5{
+    text-decoration: underline;
+}
+
+.categoriesMenu{
+  
+}

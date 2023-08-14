@@ -1,0 +1,50 @@
+.container {
+    width: 100%;
+    display: flex;
+    /* justify-content: center; */
+   
+    /* border: 1px solid black; */
+    padding: 10px; /* Border around the container */
+  }
+
+  .fiveBox {
+    display: flex;
+    width: 90%; /* Adjust the width as needed */
+    height: 140px;
+    justify-content: space-between;
+    /* border: 1px solid black; Border around the 5 boxes */
+    padding: 5px; /* Gap between the 5 boxes and the border */
+    box-sizing: border-box;
+    
+  }
+
+  .boxes {
+    flex: 1;
+    flex-direction: column;
+    
+    height: 130px; /* Adjust the height as needed */
+    border: 1px solid rgba(209, 192, 192, 0.356);
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+   
+    justify-content: center;
+  }
+
+  .boxes:last-child {
+    margin-right: 0;
+  }
+
+  .fiveIcon{
+    color: rgb(54, 54, 235);
+   font-size: 50px;
+   margin-top: 10px;
+   margin-bottom: -10px;
+   font-weight: 200;
+  }
+
+  .hello{
+    display: flex;
+    flex-direction: column;
+  }
